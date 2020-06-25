@@ -6,7 +6,72 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://katalon-studio-samples.github.io/calculator'</initValue>
-      <name>baseUrl</name>
+      <initValue>'derektesting11+352@gmail.com'</initValue>
+      <name>baseEmailLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Spec symbol</description>
+      <initValue>['&lt;', '>', '*', '№', ',', '.', '?', '|', '/', '{', '}', '&quot;', '\'', ':', ';', '\\', ']', '[', '`', '=', '-', '+', '_', ')', '(', '*', '&amp;', '^', '%', '$', '#', '@', '!', '~']</initValue>
+      <name>massSpec</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[' ']</initValue>
+      <name>spaceSym</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['']</initValue>
+      <name>emptySym</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['2']</initValue>
+      <name>numSym</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['¢']</initValue>
+      <name>nonasciiSym</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['', 'gmail.com', '@@gmail.com', 'derekderekderekderekderekderekderekderekderekderekderekderek@gmail.com', '@gmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmai.com', '@gmail.comcomcomcomcomcomcomcomcomcomcomcomcomcomcomcomcomcomcomcomcomc', '@gmail com', '@gmailcom', '@gmail..com', ' @gmail.com', '   k@gmail.com']</initValue>
+      <name>invEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['testing11@gmail.com']</initValue>
+      <name>existEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['@asda@DSa@']</initValue>
+      <name>massSecondField</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['11111', '1']</initValue>
+      <name>invPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['111111']</initValue>
+      <name>validPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'derekitesting11+09923@gmail.com'</initValue>
+      <name>baseEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>timeStamp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['testing11@gmail.com']</initValue>
+      <name>lol</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
