@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Spec symbol in Last name</description>
+   <name>Invalid Last Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>168b2653-8eff-4bc8-a59d-5ba5f33efa1d</testCaseGuid>
+</TestCaseEntity>

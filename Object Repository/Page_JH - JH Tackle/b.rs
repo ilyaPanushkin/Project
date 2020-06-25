@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b</name>
+   <tag></tag>
+   <elementGuidId>0d756b00-6e38-4d34-bc11-40b5f56043be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[8]/div[1]/div/div[6]/form/div[2]/div[3]/div[2]/div[3]/div/div/a/div/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shipping_address_form&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;colomns clearfix&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;input_wrapper inter_address_false&quot;]/div[@class=&quot;field_wrap&quot;]/div[@class=&quot;chosen-container chosen-container-single chosen-container-active chosen-with-drop&quot;]/a[@class=&quot;chosen-single&quot;]/div[1]/b[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='shipping_address_form']/div[2]/div[3]/div[2]/div[3]/div/div/a/div/b</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/a/div/b</value>
+   </webElementXpaths>
+</WebElementEntity>
