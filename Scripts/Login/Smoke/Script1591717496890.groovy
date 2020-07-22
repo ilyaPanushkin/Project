@@ -25,9 +25,9 @@ WebUI.setText(findTestObject('Page_JH - JH Tackle/input_Email_email'), 'derektes
 WebUI.setText(findTestObject('Page_JH - JH Tackle/input_Password_password'), '111111')
 
 WebUI.click(findTestObject('Page_JH - JH Tackle/button_Login'))
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 WebUI.navigateToUrl('https://jh3.v2.php-cd.attractgroup.com/account');
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 
 
 

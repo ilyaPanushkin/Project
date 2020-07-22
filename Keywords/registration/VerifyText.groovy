@@ -42,52 +42,52 @@ import ru.yandex.qatools.ashot.Screenshot;
 import internal.GlobalVariable
 
 public class VerifyText {
-	
-	
-	
-	
-	
-	public static void textPageVerify(ArrayList<String> massActualText, ArrayList<String> massexpectedFieldName){
-		
-		
-		for(int i = 0; i<massActualText.size(); i++){
-		
-		String actualText = WebUI.getText(findTestObject(massActualText[i]));
-		String expectedText = massexpectedFieldName[i];
-		WebUI.comment("${actualText} and ${expectedText}")
-		if(  WebUI.verifyMatch(actualText ,  expectedText,   false, FailureHandling.CONTINUE_ON_FAILURE) == false ){
-			
-			logs.LogErrors.logFile("Actual text on registration page is \"${actualText}\" , expected text is \"${expectedText} \"" +"\n" , "Registration");
-			logs.LogErrors.logScreen("Object element in massexpectedFieldName  ${i} isn't expected", "Registration")
-			
-		}
-		else  {
-			continue;
-		}
-		
-		
-		
-	
+
+
+
+
+
+    public static void textPageVerify(ArrayList<String> massActualText, ArrayList<String> massexpectedFieldName){
+
+
+	for(int i = 0; i<massActualText.size(); i++){
+
+	    String actualText = WebUI.getText(findTestObject(massActualText[i]));
+	    String expectedText = massexpectedFieldName[i];
+	    WebUI.comment("${actualText} and ${expectedText}")
+	    if(  WebUI.verifyMatch(actualText ,  expectedText,   false, FailureHandling.CONTINUE_ON_FAILURE) == false ){
+
+		logs.LogErrors.logFile("Actual text on registration page is \"${actualText}\" , expected text is \"${expectedText} \"" +"\n" , "Registration");
+		logs.LogErrors.logScreen("Object element in massexpectedFieldName  ${i} isn't expected", "Registration")
+
+	    }
+	    else  {
+		continue;
+	    }
+
+
+
+
 	}
-		
-		
-		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

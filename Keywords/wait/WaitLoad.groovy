@@ -21,10 +21,9 @@ import org.openqa.selenium.WebElement
 
 public class WaitLoad {
 
-	public static void jQuary(){
+    public static void jQuery(){
 
-		WebUI.waitForJQueryLoad(30, FailureHandling.CONTINUE_ON_FAILURE)
-		WebUI.waitForPageLoad(30);
-		
-	}
+	WebUI.waitForJQueryLoad(30, FailureHandling.CONTINUE_ON_FAILURE);
+	WebUI.waitForPageLoad(30);
+    }
 }

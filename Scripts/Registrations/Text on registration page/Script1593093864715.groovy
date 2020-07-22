@@ -18,9 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://jh3.v2.php-cd.attractgroup.com/registration')
+WebUI.navigateToUrl("${GlobalVariable.dev1URLRegistration}")
 WebUI.click(findTestObject('Object Repository/Page_JH - JH Tackle/a_Request_phpdebugbar-close-btn'));
+
 
 
 // Проверка всех текстов на странице

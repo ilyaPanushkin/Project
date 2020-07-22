@@ -61,23 +61,18 @@ import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies
 
 public class LogErrors {
-    //Кастомный лог ошибок вывод в консоль при фейле и отметка шага зафейленного
-    public static void markStepFailed(String errMsg) {
-	//ArrayList<String> symValue = GlobalVariable.massSpec;
-	KeywordLogger log = new KeywordLogger();
 
+    // Лог ошибок вывод в консоль при фейле и отметка шага зафейленного
+    public static void markStepFailed(String errMsg) {
+
+	KeywordLogger log = new KeywordLogger();
 	log.logFailed(errMsg);
 	KeywordUtil.markFailed("One or more failed steps present. Check test report for details.");
+
     }
 
-
-
-
     //Запись фейлов в текстовый доккумент
-
-
     public static String logFile(String log, String folderTextError){
-
 
 	File file = new File("D:\\Test\\File\\${folderTextError}\\fail.txt");
 	file.createNewFile();
@@ -87,11 +82,17 @@ public class LogErrors {
 	writer.close();
 
     }
-
-
-
-
-
+    
+    public static String logFile(String log, String folderTextError, String nameFile){
+	
+		File file = new File("D:\\Test\\File\\${folderTextError}\\${nameFile}.txt");
+		file.createNewFile();
+		FileWriter writer = new FileWriter(file, true);
+		writer.write(log);
+		writer.flush();
+		writer.close();
+	
+	    }
 
     //Скриншот экрана
     // take screenshot and save a PNG file into Reports dir
@@ -103,11 +104,12 @@ public class LogErrors {
 	Path pngFile = reportDir.resolve("D:\\Test\\Screen\\${folderScreen}\\${name}.png")
 	WebDriver driver = DriverFactory.getWebDriver()
 	takeEntirePage(driver, pngFile.toFile(), 1000)
-	
+
     }
-    
+
     // take screenshot of entire web page
     public static void takeEntirePage(WebDriver webDriver, File file, Integer timeout = 300) {
+
 	Screenshot screenshot = new AShot().
 		coordsProvider(new WebDriverCoordsProvider()).
 		shootingStrategy(ShootingStrategies.viewportPasting(timeout)).
@@ -116,15 +118,12 @@ public class LogErrors {
 
     }
 
-
-
-
-
-
     // Текущее время
     public static String timeStamp(){
+
 	String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 	return timeStamp;
+
     }
 
 

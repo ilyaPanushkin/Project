@@ -74,4 +74,24 @@
       <initValue>['testing11@gmail.com']</initValue>
       <name>lol</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://jh3.php-cd.attractgroup.com/registration'</initValue>
+      <name>dev1URLRegistration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://jh3.v2.php-cd.attractgroup.com/registration'</initValue>
+      <name>dev2URLRegistration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>adminordernumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>xpath</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
