@@ -87,6 +87,6 @@ String apartment = "entrance 1, building 234, floor 2, apartment 8"
 pay.CreditCard.fillFieldBillingingAddressOptional(company, apartment)
 pay.CreditCard.verifyOrderSummeryAndFinishOrder(urlProduct)
 WebUI.closeBrowser()
-//
+////
 
 
