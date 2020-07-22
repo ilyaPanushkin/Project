@@ -46,32 +46,33 @@ WebUI.setText(findTestObject('Page_JH - JH Tackle/input_Email_email'), 'derektes
 WebUI.setText(findTestObject('Page_JH - JH Tackle/input_Password_password'), '111111')
 
 WebUI.click(findTestObject('Page_JH - JH Tackle/button_Login'))
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 Thread.sleep(5000);
 WebUI.navigateToUrl('https://jh3.v2.php-cd.attractgroup.com/search?man%5B%5D=&q=Huk%20Ladies%20Packable%20Jacket%20Huk%20Ladies%20Packable%20Jacket%09');
-wait.WaitLoad.jQuary();
-WebUI.click(findTestObject('Object Repository/Page_Search results - JH Tackle/a_Huk Ladies Packable Jacket Huk Ladies Pac_cdb7d2'))
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
+WebUI.click(findTestObject('Pay/a_Huk Ladies Packable Jacket Huk Ladies Pac_cdb7d2'))
+wait.WaitLoad.jQuery();
 
 WebUI.click(findTestObject('Object Repository/Page_Huk Ladies Packable JacketH6400001 - J_492e8c/button_Add to Cart'))
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 WebUI.click(findTestObject('Object Repository/Page_JH - JH Tackle/a_Proceed to Checkout'))
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 WebUI.click(findTestObject('Object Repository/Page_JH - JH Tackle/a_Shipping Address_change change_shipping_address'))
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 WebUI.click(findTestObject('Object Repository/Page_JH - JH Tackle/button_Edit'))
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 WebUI.click(findTestObject('Object Repository/Page_JH - JH Tackle/span_New York'))
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 WebUI.click(findTestObject('Object Repository/Page_JH - JH Tackle/b'));
 WebUI.selectOptionByIndex(findTestObject('Object Repository/City/Second'), 4)
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 
 
 WebUI.click(findTestObject('Object Repository/Page_JH - JH Tackle/button_Ok'))
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 WebUI.click(findTestObject('Object Repository/Page_JH - JH Tackle/button_Place                            your order'))
-wait.WaitLoad.jQuary();
+wait.WaitLoad.jQuery();
 WebUI.waitForElementPresent(findTestObject('Page_JH - JH Tackle/div_Thank you Your order has been placed   _620785'), 0)
 WebUI.closeBrowser()
+
 }

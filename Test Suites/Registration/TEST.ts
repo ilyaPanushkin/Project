@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>New Test Suite</name>
+   <name>TEST</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>derektesting11@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>5</pageLoadTimeout>
+   <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>dbba7a9b-55a9-41d5-908a-86571351a076</testSuiteGuid>
+   <testSuiteGuid>ad6624bb-e279-4f28-8283-2f9e41f3569a</testSuiteGuid>
    <testCaseLink>
-      <guid>31129b8b-efc3-4569-82f1-64af8dd1466c</guid>
+      <guid>cb60696f-0c76-4af4-be9e-2a920355c369</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pay/Credit cart (with standart flow)</testCaseId>
+      <testCaseId>Test Cases/Registrations/Invalid First Name</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

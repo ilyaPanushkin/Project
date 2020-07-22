@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_click_month_cart</name>
+   <tag></tag>
+   <elementGuidId>b14a7bd9-c222-469c-9753-99738d4687b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>&lt;a class=&quot;chosen-single&quot;>&lt;span>1&lt;/span>&lt;div>&lt;b>&lt;/b>&lt;/div>&lt;/a></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;payment_method&quot;)/div[@class=&quot;method&quot;]/div[@class=&quot;method_content method_content_2&quot;]/div[@class=&quot;card_info&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;month_col&quot;]/div[@class=&quot;input_wrapper month select_option pay_select_container&quot;]/div[@class=&quot;chosen-container chosen-container-single chosen-container-single-nosearch chosen-container-active chosen-with-drop&quot;]/a[@class=&quot;chosen-single&quot;]/div[1]/b[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[8]/div[1]/form/div/div[2]/div[2]/div/div/div[2]/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;payment_method&quot;)/div[@class=&quot;method&quot;]/div[@class=&quot;method_content method_content_2&quot;]/div[@class=&quot;card_info&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;month_col&quot;]/div[@class=&quot;input_wrapper month select_option pay_select_container&quot;]/div[@class=&quot;chosen-container chosen-container-single chosen-container-single-nosearch chosen-container-active chosen-with-drop&quot;]/a[@class=&quot;chosen-single&quot;]/div[1]/b[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='payment_method']/div[2]/div[3]/div[2]/table/tbody/tr/td[2]/div/div/a/div/b</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div/a/div/b</value>
+   </webElementXpaths>
+</WebElementEntity>
